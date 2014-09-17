@@ -1,0 +1,14 @@
+    h1{color: ForestGreen; font-family: cursive; font-size: 30px;
+      }
+      h2{font-family: cursive;
+        text-align: center;
+        color: LightCoral;
+      }
+      body {background-color: AntiqueWhite;
+        font-family: Arial;
+        font-size: 20 px; 
+      }
+      header{border-bottom-style: solid;
+        border-bottom-width: 2px;
+        font-size: 30 px;
+      }
