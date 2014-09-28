@@ -1,0 +1,35 @@
+ <style>
+      body {
+        font-family:sans-serif;
+        background-color: AntiqueWhite; <!--This would not change the background color, I do not understand why !-->
+      }
+      h1 {
+        color: navy;
+        text-align: center;
+        font-family: cursive;
+        background-color:lightcyan;
+        
+      }
+      h2 {
+        color: lightskyblue;
+        font-family:sans-serif;
+      }
+      h3 {
+        color: slateblue;
+        font-family:sans-serif;
+      }
+      h4 {
+        color: steelblue;
+        font-family:sans-serif;
+      }
+      main {
+        font-family: sans-serif;
+        background-color: lightcyan;
+      }
+      dd {
+        font-family: sans-serif;
+      }
+      dl {
+        background-color:lightcyan;
+      }
+        </style>
