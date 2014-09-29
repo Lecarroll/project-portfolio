@@ -1,10 +1,18 @@
 /*
 Lauren Carroll
-
 Teal- #65CAB7
 Light Green- #ABF4AC
 Light Blue- #ABF4F1
 */
+
+header{
+  background-color:#dddddd;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding:25 px;
+}
 
 a {
   color: #65CAB7;
@@ -29,3 +37,6 @@ h1 {
   height: 200px;
   background-color: #ABF4F1;
 }
+
+  
+  
