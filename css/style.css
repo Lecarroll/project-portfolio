@@ -22,19 +22,17 @@ h1 {
   color: #65CAB7;
 }
 
-.color1{
+.color1,.color2,.color3 {
   width: 200px;
   height: 200px;
+}
+.color1{
   background-color: #65CAB7;
 }
 .color2{
-  width: 200px;
-  height: 200px;
   background-color: #ABF4AC;
 }
 .color3{
-  width: 200px;
-  height: 200px;
   background-color: #ABF4F1;
 }
 
