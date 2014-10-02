@@ -21,10 +21,14 @@ a {
 h1 {
   color: #65CAB7;
 }
+.colorwrapper {
+  background-color:#dddddd;
+}
 
-.color1,.color2,.color3 {
+.colorsquare {
   width: 200px;
   height: 200px;
+  display:inline-block;
 }
 .color1{
   background-color: #65CAB7;
@@ -36,5 +40,12 @@ h1 {
   background-color: #ABF4F1;
 }
 
-  
-  
+.clearfix:before,
+.clearfix:after {
+  content:" ";
+  display: table;
+}
+
+.clearfix: after {
+  clear:both;
+}
