@@ -5,6 +5,8 @@ Light Green- #ABF4AC
 Light Blue- #ABF4F1
 */
 
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+
 header{
   background-color:#dddddd;
   width: 800px;
@@ -18,8 +20,13 @@ a {
   color: #65CAB7;
 }
 
+body {
+  font-family: Perpetua;
+}
+
 h1 {
   color: #65CAB7;
+  font-family: 'Rock Salt', cursive;
 }
 .colorwrapper {
   background-color:#dddddd;
@@ -38,6 +45,14 @@ h1 {
 }
 .color3{
   background-color: #ABF4F1;
+}
+
+.site-footer a{
+font-size: 1em;
+color: black;
+}
+.site-footer a:hover{
+color:lightgray ;
 }
 
 .clearfix:before,
