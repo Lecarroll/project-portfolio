@@ -1,36 +1,81 @@
  <style>
+/* I was confused whether or not we already had a CSS Reset for this yet or not.  */
       body {
-        font-family:sans-serif;
-        background-color: AntiqueWhite; <!--This would not change the background color, I do not understand why !-->
+       
       }
+    
       h1 {
-        color: navy;
+        color: #4C331A;
         text-align: center;
-        font-family: cursive;
-        background-color:lightcyan;
-        
+        background-color:#C2A385;
+        text-transform: uppercase;
+        text-shadow: 2px 2px white;
+        padding: 1em 0;
+        margin: 0 15px;
+        font-family: 'Pacifico', cursive;
+        letter-spacing: 1em;
+        border-top-style:dotted;
+        border-bottom-style: dotted;
+        border-left-style: dashed;
+        border-right-style: dashed;
+
+        width:auto;
+        height:auto;
+
       }
       h2 {
-        color: lightskyblue;
-        font-family:sans-serif;
+        color: #4C331A;
+        text-decoration: underline;
+        text-shadow: 2px 2px white;
+        font-family: 'Poiret One', cursive;
+        padding: .5em 0;
+        margin: 0 5px;
+        
       }
       h3 {
-        color: slateblue;
-        font-family:sans-serif;
+        color: #8A5C2E;
+        font-family: 'Fontdiner Swanky', cursive;
+  
       }
       h4 {
-        color: steelblue;
+        color: #8A5C2E;
         font-family:sans-serif;
       }
+
       main {
-        font-family: sans-serif;
-        background-color: lightcyan;
+        font-family:"Marko One", Georgia, serif;
+        background-image: url('../images/upfeathers.png');
+        width:auto;
+        height:auto;
+        padding: 5em 0;
+        margin: 0 50px;
+        text-indent: 2em;
+        text-align:left;
+        list-style-position:inside;
+        border-top-style:double;
+        border-bottom-style:double;
+        border-left-style: double;
+        border-right-style: double;
       }
+        
       dd {
-        font-family: sans-serif;
+        font-family:monospace;
+        color:white;
+        text-align:center; 
       }
       dl {
-        background-color:lightcyan;
+        background-color:#D6C2AD;
         text-align:center;
+        border-top-style:double;
+        border-bottom-style:double;
+        border-left-style: double;
+        border-right-style: double;
+      }
+      dt {
+        color:white;
+        text-align:center;
+        font-family:monospace;
+        width:auto;
+        height:auto;
       }
         </style>
