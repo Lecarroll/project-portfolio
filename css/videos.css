@@ -1,0 +1,42 @@
+h1 {
+  color:lightblue;
+  font-family: 'Gloria Hallelujah', cursive;
+  background-color:white;
+  text-align: center;
+  border-bottom-style:groove;
+  border-top-style: groove;
+  border-left-style: groove;
+  border-right-style: groove;
+}
+
+h2 {
+  color:#0066CC;
+  text-align: center;
+}
+
+h4 {
+  color:#0099CC;
+  font-size: 1.5em;
+}
+
+body {
+  background-image: url('../images/knitting250px.png');
+  margin:4em;
+  padding:2em;
+  font-family: 'Slabo 13px', serif;
+  
+}
+p {
+  color:black;
+  text-indent: 2em;
+}
+
+li {
+  color:black;
+}
+
+.speaker {
+  text-align: center;
+  font-style: italic;
+  font-size:1em;
+}
