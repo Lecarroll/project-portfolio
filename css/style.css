@@ -9,10 +9,9 @@ Light Blue- #ABF4F1
 
 header{
   background-color:#dddddd;
-  width: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   padding:25 px;
 }
 
@@ -22,6 +21,28 @@ a {
 
 body {
   font-family: Perpetua;
+  background-image: url('../images/swirl_pattern.png');
+}
+
+.main {
+  width:66%;
+  float:left;
+  border-style:solid;
+  border-width:5px;
+  border-radius:25px;
+  background-color:white;
+  margin:1%;
+  padding:3%;
+}
+.sidebar{
+  width:30%;
+  margin:1%;
+  float:right;
+  border-style:solid;
+  border-width:5px;
+  border-radius:25px;
+  background-color:white;
+  padding:3%;
 }
 
 h1 {
@@ -33,18 +54,21 @@ h1 {
 }
 
 .colorsquare {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display:inline-block;
 }
 .color1{
   background-color: #65CAB7;
+  margin:2%;
 }
 .color2{
   background-color: #ABF4AC;
+  margin:2%;
 }
 .color3{
   background-color: #ABF4F1;
+  margin:2%;
 }
 
 .site-footer a{
@@ -64,3 +88,22 @@ color:lightgray ;
 .clearfix: after {
   clear:both;
 }
+footer {
+  border-style:solid;
+  border-width:5px;
+  border-radius:25px;
+  background-color:white;
+  padding:3%;
+  text-align:center;
+  margin:2%;
+
+}
+ul{
+  list-style-type:none;
+
+}
+li{
+  padding:2%;
+}
+p{
+  font-size:15px;}
