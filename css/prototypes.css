@@ -1,0 +1,22 @@
+
+h1 {
+  color:lightgray;
+  text-shadow: 2px 2px gray;
+   font-family: serif;
+  text-align:center;
+}
+
+h2 {
+  color:white;
+  font-family: cursive;
+}
+body{
+  background-color:#191970;
+}
+.scaled-image{
+  max-width:100%;
+  height:auto;
+}
+
+
+    
