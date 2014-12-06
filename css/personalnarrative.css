@@ -1,0 +1,20 @@
+h1 {
+  text-align:center;
+  color:skyblue;
+  font-size:50px;
+  font-family: cursive;
+}
+
+p {
+color:white;
+}
+
+body{
+  background-color:black;
+  font-size:17px;
+  padding-left:100px;
+  padding-right:100px;
+  max-width: 600px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
